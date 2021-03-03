@@ -35,6 +35,9 @@
   span.comment {
     display: none;
   }
+  .warning {
+    color: yellow;
+  }
   .sblgnt {
     display: none;
   }
@@ -106,13 +109,14 @@
 </head>
 <body>
 <h1>gitBible</h1>
+<p class='warning'><b>Note:</b> this is an exploratory translation of Romans 1:1-23, with limited input.&nbsp; Contact <a href='https://davidstansfield.id.au'>David R. Stansfield</a> to discuss, or contribute to the translation.</p>
 <table id='translationSelection'>
 <tr><td><input checked id='ngvState' type='checkbox'>NGV</input></td><td><input id='ngvCommentsState' type='checkbox'>Com.</input></td><td><input checked id='ngvPunctuationState' type='checkbox'>Punct.</input></td></tr>
 <tr><td><input id='sblgntState' type='checkbox'>SBLGNT</input></td><td colspan='2'>&nbsp;</td></tr>
 <tr><td><input id='sblgnttState' type='checkbox'>SBLGNT(t)</input></td><td colspan='2'>&nbsp;</td></tr>
 <tr><td><input id='ngvwState' type='checkbox'>NGVw</input></td><td colspan='2'>&nbsp;</td></tr>
 </table>
-<h2>Romans 1</h2>
+<h2>Romans 1:1-23</h2>
 <h3>1</h3>
 <p class='ngv'>Paul a slave of Christ <span class='comment'>(Messiah)</span> Jesus<span class='punctuation'>,</span> called to be an apostle<span class='punctuation'>,</span> having been separated into the gospel of God</p>
 <p class='sblgnt'>Παῦλος δοῦλος Χριστοῦ Ἰησοῦ, κλητὸς ἀπόστολος, ἀφωρισμένος εἰς εὐαγγέλιον θεοῦ</p>

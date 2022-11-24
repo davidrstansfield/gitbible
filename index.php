@@ -43,14 +43,14 @@ td.development, span.development {
 
 <h1>gitBible</h1>
 
+<p class='warning'>Note: This is an <i>exploratory</i> translation of Romans 1:1-23.</p>
+
 <?php
 $b = 'romans'; // book: current selection, romans
 $c = 1; // chapter: current chapter, 1
 
 $bName = file_get_contents("./$b/name.txt"); // book name: ./romans/name.txt is 'Romans'
 echo "<h2>$bName</h2>\n";
-
-echo "<p class='warning'>Note: This is an <i>exploratory</i> translation.</p>\n"; 
 
 echo "<h3>$c</h3>\n";
 
